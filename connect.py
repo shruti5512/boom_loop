@@ -1,6 +1,6 @@
 #Code for connection to MQTT
 import paho.mqtt.client as mqtt
-from loop import WebSocket
+from control import WebSocket
 
 broker= "192.168.1.160"  
 port = 1883                         
