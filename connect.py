@@ -4,8 +4,8 @@ from control import WebSocket
 
 broker= "192.168.1.160"  
 port = 1883                         
-username = "getparking"                   
-password = "playtmbiz"   
+username = "username"                   
+password = "password"   
 #Subscribe to two topics where loop/ will receive "en/ex" and reconnected/ will receive "A/B-count"   
 topic =  [("boom/",1),("connect/",1)]
 client_id = "WebSocket"
